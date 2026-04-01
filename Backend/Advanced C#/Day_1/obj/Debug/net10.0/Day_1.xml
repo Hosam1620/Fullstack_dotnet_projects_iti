@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Day_1</name>
+    </assembly>
+    <members>
+        <member name="T:Day_1.Employee">
+            <summary>
+            represents an employee with properties 
+            such as Id, Salary, SecurityLevel, Hiring date 
+            and Gender.
+            implements the IComparable interface 
+            to allow for sorting based on the hiring date.
+            </summary>
+        </member>
+        <member name="P:Day_1.Employee.SecurityLevel">
+            <summary>
+            is an enumeration that defines different security privileges for employees.
+            which allows for multiple privileges to be assigned to a single 
+            employee by combining the values using bitwise operations.
+            </summary>
+        </member>
+        <member name="P:Day_1.Employee.Gender">
+            <summary>
+            is an enumeration that defines different types of gender
+            </summary>
+        </member>
+        <member name="M:Day_1.Employee.CompareTo(System.Object)">
+            <summary>
+            this is the implementation of the CompareTo method from the IComparable interface.
+            to compare the current employee object with another object based on their hiring date.
+            
+            </summary>
+            <param name="obj"></param>
+            <returns>int</returns>
+            <exception cref="T:System.ArgumentException"></exception>
+        </member>
+        <member name="M:Day_1.Employee.ToString">
+            <summary>
+            this is an override of the ToString method to provide a string representation of the employee object.
+            
+            </summary>
+            <returns>string</returns>
+        </member>
+    </members>
+</doc>

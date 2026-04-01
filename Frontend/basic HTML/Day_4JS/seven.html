@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div id="container">
+        <p>Hello</p>
+    </div>
+    <button onclick="addImage()">Add Image</button>
+    <button onclick="removeImage()">Remove Image</button>
+    <script>
+
+        let img;
+
+        function addImage() {
+
+            img = document.createElement("img");
+
+            img.setAttribute("src", "./Resources for Assignments/tiger.gif");
+            img.setAttribute("width", "100");
+
+            let div = document.getElementById("container");
+
+            div.appendChild(img);
+
+            alert(div.childNodes.length);
+        }
+
+        function removeImage() {
+            let div = document.getElementById("container");
+            div.removeChild(img);
+        }
+
+    </script>
+
+</body>
+
+</html>

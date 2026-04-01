@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Chip</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            margin-top: 100px;
+        }
+
+        /* Main container */
+        .chip-container {
+            display: flex;
+            align-items: center;
+        }
+
+        /* Profile image */
+        .profile-img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            cursor: pointer;
+            z-index: 2;
+        }
+
+        /* Chip content */
+        .chip-content {
+            display: flex;
+            align-items: center;
+            background-color: #eee;
+            padding: 15px 20px;
+            border-radius: 40px;
+            margin-left: -20px;
+            transition: transform 0.5s ease, opacity 0.5s ease;
+        }
+
+        /* Name */
+        .name {
+            margin-right: 15px;
+            font-size: 18px;
+        }
+
+        /* Close button */
+        .close-btn {
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        /* Hidden state */
+        .closed {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="chip-container">
+
+        <!-- Profile Image -->
+        <img src="https://i.pravatar.cc/60" alt="profile" class="profile-img">
+
+        <!-- Info Part -->
+        <div class="chip-content" id="chipContent">
+            <span class="name">Jane Row</span>
+            <span class="close-btn" id="closeBtn">&times;</span>
+        </div>
+
+    </div>
+
+    <script>
+        const closeBtn = document.getElementById("closeBtn");
+        const chipContent = document.getElementById("chipContent");
+        const profileImg = document.querySelector(".profile-img");
+
+        // Close animation
+        closeBtn.addEventListener("click", () => {
+            chipContent.classList.add("closed");
+        });
+
+        // Open again when clicking image
+        profileImg.addEventListener("click", () => {
+            chipContent.classList.remove("closed");
+        });
+
+    </script>
+</body>
+
+</html>

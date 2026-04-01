@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mini Paint</title>
+</head>
+
+<body>
+
+    <canvas id="paintCanvas" width="600" height="400" style="border:1px solid black;"></canvas>
+
+    <script>
+
+        const canvas = document.getElementById("paintCanvas");
+        const ctx = canvas.getContext("2d");
+
+        let isDrawing = false;
+        let isErasing = false;
+
+        
+        canvas.onmousedown = function (e) {
+
+            if (e.button === 0) {  // Left Click
+                isDrawing = true;
+            }
+
+            if (e.button === 2) {  // Right Click
+                isErasing = true;
+            }
+        };
+        canvas.onmouseup = function () {
+            isDrawing = false;
+            isErasing = false;
+        };
+
+        
+        canvas.onmousemove = function (e) {
+
+            if (isDrawing) {
+                ctx.fillStyle = "black";
+                ctx.fillRect(e.offsetX, e.offsetY, 5, 5);
+            }
+
+            if (isErasing) {
+                ctx.clearRect(e.offsetX, e.offsetY, 15, 15);
+            }
+        };
+
+        
+        canvas.oncontextmenu = function (e) {
+            e.preventDefault();
+        };
+
+    </script>
+
+</body>
+
+</html>

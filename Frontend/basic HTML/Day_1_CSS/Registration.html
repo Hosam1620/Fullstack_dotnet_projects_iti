@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        .field {
+            margin-bottom: 10px;
+            display: block;
+        }
+
+        .field::after {
+            content: "*";
+            color: red;
+            margin-left: 5px;
+        }
+
+        input:invalid {
+            border: 2px solid black;
+        }
+
+        input:invalid+.msg {
+            display: block;
+            color: red;
+            font-size: 12px;
+        }
+
+        input:valid {
+            border: 2px solid white;
+        }
+
+        input:valid+.msg {
+            display: none;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 25px;
+            background-color: blue;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <form>
+        <div class="field">
+            <input type="text" required>
+            <span class="msg">Not valid</span>
+        </div>
+
+        <a href="#" class="btn">Register</a>
+    </form>
+</body>
+
+</html>

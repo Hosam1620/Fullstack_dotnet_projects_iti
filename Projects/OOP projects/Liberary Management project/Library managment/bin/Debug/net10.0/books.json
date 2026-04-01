@@ -1,0 +1,38 @@
+[
+  {
+    "ID": 1,
+    "Name": "Java",
+    "AuthorName": "Hosam",
+    "Category": "learning",
+    "PageNumber": 1924,
+    "PublishYear": 1824,
+    "Copies": 10
+  },
+  {
+    "ID": 2,
+    "Name": "C#",
+    "AuthorName": "Nourin",
+    "Category": "learning",
+    "PageNumber": 1924,
+    "PublishYear": 1824,
+    "Copies": 20
+  },
+  {
+    "ID": 3,
+    "Name": "Python",
+    "AuthorName": "Mohamed",
+    "Category": "learning",
+    "PageNumber": 1924,
+    "PublishYear": 1824,
+    "Copies": 30
+  },
+  {
+    "ID": 4,
+    "Name": "Algorithem",
+    "AuthorName": "Alyaa",
+    "Category": "learning",
+    "PageNumber": 1924,
+    "PublishYear": 1824,
+    "Copies": 40
+  }
+]

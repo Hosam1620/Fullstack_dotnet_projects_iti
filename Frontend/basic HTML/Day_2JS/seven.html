@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <span>
+        minimum 50 characters
+    </span>
+    <br>
+    <input type="text" id="searchInput" placeholder="Enter word to search">
+    <button onclick="SearchWord()">Search</button>
+    <br>
+    <input type="text" id="replaceInput" placeholder="Enter replacement word">
+    <button onclick="ReplaceWord()">Replace All</button>
+    <br>
+    <p id="searchCount"></p>
+    <br>
+    <textarea name="textarea" cols=50 rows="10" id="textAnalysis"></textarea>
+    <div id="textAnalysisResult"></div>
+    <button onclick="analysis()">Analysis</button>
+    <button onclick="ConverttoUppercase()">Convert to Uppercase</button>
+    <button onclick="ConverttoLowercase()">Convert to Lowercase</button>
+    <button onclick="TitleCase()">Title Case</button>
+    <button onclick="ReverseText()">Reverse Text</button>
+    <button onclick="RemoveExtra()">Remove Extra Spaces</button>
+    <h4>Highlighted Text:</h4>
+    <div id="highlightedText"></div>
+    </div>
+    <script src="seven.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Location</title>
+</head>
+<body>
+
+<h2>Get My Current Location</h2>
+
+<button onclick="getLocation()">Show My Location</button>
+
+<p id="status"></p>
+
+<script>
+
+function getLocation() {
+
+    const status = document.getElementById("status");
+
+    if (!navigator.geolocation) {
+        status.innerHTML = "Geolocation is not supported.";
+        return;
+    }
+
+    status.innerHTML = "Getting location...";
+
+    navigator.geolocation.getCurrentPosition(
+        showPosition,
+        showError
+    );
+}
+
+function showPosition(position) {
+
+    let latitude = position.coords.latitude;
+    let longitude = position.coords.longitude;
+
+    let mapURL = `https://www.google.com/maps?q=${latitude},${longitude}`;
+
+    window.open(mapURL, "_blank");
+}
+
+function showError(error) {
+
+    const status = document.getElementById("status");
+
+    switch(error.code) {
+        case error.PERMISSION_DENIED:
+            status.innerHTML = "User denied the request.";
+            break;
+        case error.POSITION_UNAVAILABLE:
+            status.innerHTML = "Location unavailable.";
+            break;
+        case error.TIMEOUT:
+            status.innerHTML = "Request timeout.";
+            break;
+        default:
+            status.innerHTML = "Unknown error.";
+    }
+}
+
+</script>
+
+</body>
+</html>

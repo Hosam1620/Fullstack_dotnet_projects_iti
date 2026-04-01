@@ -1,0 +1,14 @@
+D:\All projects\ITI Diploma\C# basic\task1 day 2\bin\Debug\net10.0\task1 day 2.exe
+D:\All projects\ITI Diploma\C# basic\task1 day 2\bin\Debug\net10.0\task1 day 2.deps.json
+D:\All projects\ITI Diploma\C# basic\task1 day 2\bin\Debug\net10.0\task1 day 2.runtimeconfig.json
+D:\All projects\ITI Diploma\C# basic\task1 day 2\bin\Debug\net10.0\task1 day 2.dll
+D:\All projects\ITI Diploma\C# basic\task1 day 2\bin\Debug\net10.0\task1 day 2.pdb
+D:\All projects\ITI Diploma\C# basic\task1 day 2\obj\Debug\net10.0\task1 day 2.GeneratedMSBuildEditorConfig.editorconfig
+D:\All projects\ITI Diploma\C# basic\task1 day 2\obj\Debug\net10.0\task1 day 2.AssemblyInfoInputs.cache
+D:\All projects\ITI Diploma\C# basic\task1 day 2\obj\Debug\net10.0\task1 day 2.AssemblyInfo.cs
+D:\All projects\ITI Diploma\C# basic\task1 day 2\obj\Debug\net10.0\task1 day 2.csproj.CoreCompileInputs.cache
+D:\All projects\ITI Diploma\C# basic\task1 day 2\obj\Debug\net10.0\task1 day 2.dll
+D:\All projects\ITI Diploma\C# basic\task1 day 2\obj\Debug\net10.0\refint\task1 day 2.dll
+D:\All projects\ITI Diploma\C# basic\task1 day 2\obj\Debug\net10.0\task1 day 2.pdb
+D:\All projects\ITI Diploma\C# basic\task1 day 2\obj\Debug\net10.0\task1 day 2.genruntimeconfig.cache
+D:\All projects\ITI Diploma\C# basic\task1 day 2\obj\Debug\net10.0\ref\task1 day 2.dll

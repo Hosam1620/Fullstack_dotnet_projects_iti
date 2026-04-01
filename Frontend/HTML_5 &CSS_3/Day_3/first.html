@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Human Body SVG</title>
+    <style>
+        #tooltip {
+            position: absolute;
+            background: black;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<div id="tooltip"></div>
+
+<svg width="400" height="600">
+
+    <!-- Head -->
+    <circle cx="200" cy="80" r="40" fill="#f4c2c2"
+        onmouseover="highlight(evt,'orange','Head')"
+        onmouseout="reset(evt,'#f4c2c2')" />
+
+    <!-- Body -->
+    <rect x="170" y="120" width="60" height="150" fill="#add8e6"
+        onmouseover="highlight(evt,'yellow','Body')"
+        onmouseout="reset(evt,'#add8e6')" />
+
+    <!-- Left Arm -->
+    <rect x="120" y="120" width="40" height="120" fill="#f4c2c2"
+        onmouseover="highlight(evt,'red','Left Arm')"
+        onmouseout="reset(evt,'#f4c2c2')" />
+
+    <!-- Right Arm -->
+    <rect x="240" y="120" width="40" height="120" fill="#f4c2c2"
+        onmouseover="highlight(evt,'red','Right Arm')"
+        onmouseout="reset(evt,'#f4c2c2')" />
+
+    <!-- Left Leg -->
+    <rect x="170" y="270" width="25" height="150" fill="#0000ff"
+        onmouseover="highlight(evt,'green','Left Leg')"
+        onmouseout="reset(evt,'#0000ff')" />
+
+    <!-- Right Leg -->
+    <rect x="205" y="270" width="25" height="150" fill="#0000ff"
+        onmouseover="highlight(evt,'green','Right Leg')"
+        onmouseout="reset(evt,'#0000ff')" />
+
+</svg>
+
+<script>
+    const tooltip = document.getElementById("tooltip");
+
+    function highlight(evt, color, name) {
+        evt.target.setAttribute("fill", color);
+
+        tooltip.innerHTML = name;
+        tooltip.style.display = "block";
+        tooltip.style.left = evt.pageX + "px";
+        tooltip.style.top = evt.pageY + "px";
+    }
+
+    function reset(evt, originalColor) {
+        evt.target.setAttribute("fill", originalColor);
+        tooltip.style.display = "none";
+    }
+</script>
+
+</body>
+</html>

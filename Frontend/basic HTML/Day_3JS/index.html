@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Textbox Events</title>
+</head>
+<body>
+  <h2>Textbox Events</h2>
+  <input type="text" id="txt" placeholder="Type here" />
+
+  <script>
+    // note that document is used to access the elements in the HTML page.
+    const txt = document.getElementById("txt");
+
+    // we add two event listeners to the textbox for keydown and mousedown events
+    // Key pressed
+    txt.addEventListener("keydown", function (e) {
+      alert("Key code: " + e.keyCode);
+    });
+
+    // Mouse button clicked
+    //should care about left, middle, right button
+    //which the method returns 0=>left, 1=>middle, 2=>right
+    txt.addEventListener("mousedown", function (e) {
+      let but;
+      if (e.button === 0) but = "Left Button";
+      else if (e.button === 1) but = "Middle Button";
+      else if (e.button === 2) but = "Right Button";
+      alert("Mouse button clicked: " + but);
+    });
+  </script>
+</body>
+</html>

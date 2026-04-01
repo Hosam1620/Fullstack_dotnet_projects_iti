@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Main Page</title>
+</head>
+<body>
+
+<a href="#" id="openAd">Open Advertising Window</a>
+
+<script>
+  let adWindow;
+
+  document.getElementById("openAd").onclick = function () {
+    setTimeout(() => {
+      adWindow = window.open("five_ads.html", "_blank", "width=500,height=400");
+    }, 3000);
+  };
+</script>
+
+</body>
+</html>

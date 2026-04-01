@@ -1,0 +1,10 @@
+input:valid+span { 
+    display: none;
+    border: 2px solid blue; 
+}
+input:invalid+span {     
+   
+    display: inline-block;
+    border: 2px solid red; 
+}
+

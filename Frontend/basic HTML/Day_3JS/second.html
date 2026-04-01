@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Clock</title>
+</head>
+
+<body>
+    <button id="startClock">Start Clock</button>
+    <div id="clock" style="font-size: 24px; font-weight: bold;"></div>
+
+    <script>
+        let timer = null;
+
+        const btn = document.getElementById("startClock");
+        const clockDiv = document.getElementById("clock");
+
+        // a) handle onclick 
+        btn.onclick = function () {
+            alert("Clock Started");
+            //this method updates the clock every second. to make any event happen repeatedly we use setInterval method
+           //take event and time in msec
+            timer = setInterval(() => {
+                const now = new Date();
+                clockDiv.innerText = now.toLocaleTimeString();
+            }, 1000);//msec
+        };
+
+        // b) stop clock with Alt + W
+        //here we use document to capture the keydown event globally
+        //keydown event object to listen for keybord keys.
+        document.addEventListener("keydown", function (e) {
+            if (e.altKey && e.key.toLowerCase() === "w") {
+                clearInterval(timer);
+                timer = null;
+                alert("Clock stopped");
+            }
+        });
+    </script>
+</body>
+
+</html>

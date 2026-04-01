@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+<form>
+
+
+<legend>Personal Information</legend><br/><br/>    
+
+<label>Full Name</label>
+<input type="text" placeholder="Enter your full name" required minlength="3">
+<br/><br/>
+<label>Email</label>
+<input type="email" placeholder="example@email.com" required autocomplete="on">
+<br/><br/>
+<label>Password</label>
+<input type="password" required minlength="6">
+<br/><br/>
+<label>Phone</label>
+<input type="tel" pattern="[0-9]{11}" placeholder="11 digits only">
+<br/><br/>
+<label>Birth Date</label>
+<input type="date" required>
+<br/><br/>
+<label>Age</label>
+<input type="number" min="18" max="60">
+<br/><br/>
+<label>Website</label>
+<input type="url" placeholder="https://example.com">
+<br/><br/>
+<label>Favorite Color</label>
+<input type="color">
+<br/><br/>
+<label>Experience Level</label>
+<input type="range" min="0" max="10">
+<br/><br/>
+<label>Gender</label>
+<select>
+    <option>Male</option>
+    <option>Female</option>
+</select>
+<br/><br/>
+<label>Bio</label>
+<textarea placeholder="Tell us about yourself"></textarea>
+<br/><br/>
+<label>Referral Code</label>
+<input type="text" value="AUTO123" readonly>
+<br/><br/>
+
+</form>
+
+</body>
+</html>

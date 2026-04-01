@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>seven</title>
+
+
+</head>
+
+<body>
+
+    <input type="text" id="fname" placeholder="First Name">
+    <button onclick="clearInput()">Clear</button>
+    <button onclick="submitForm()">Submit</button>
+    <script>
+        document.getElementById("fname").addEventListener("keydown", function (e) {
+            if (e.key >= "0" && e.key <= "9") {
+                e.preventDefault();
+            }
+        });
+    </script>
+
+</body>
+
+</html>

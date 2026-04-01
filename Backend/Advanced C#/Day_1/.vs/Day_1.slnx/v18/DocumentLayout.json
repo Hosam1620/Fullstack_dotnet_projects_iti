@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\All projects\\ITI Diploma\\SST\\Advanced C#\\Day_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{302174D5-6E70-A32F-0BFC-1CF46DB9E717}|Day_1.csproj|d:\\all projects\\iti diploma\\sst\\advanced c#\\day_1\\employeesearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302174D5-6E70-A32F-0BFC-1CF46DB9E717}|Day_1.csproj|solutionrelative:employeesearch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{302174D5-6E70-A32F-0BFC-1CF46DB9E717}|Day_1.csproj|d:\\all projects\\iti diploma\\sst\\advanced c#\\day_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{302174D5-6E70-A32F-0BFC-1CF46DB9E717}|Day_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeSearch.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\SST\\Advanced C#\\Day_1\\EmployeeSearch.cs",
+              "RelativeDocumentMoniker": "EmployeeSearch.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\SST\\Advanced C#\\Day_1\\EmployeeSearch.cs",
+              "RelativeToolTip": "EmployeeSearch.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAADwvy0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-07T13:10:10.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\SST\\Advanced C#\\Day_1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\SST\\Advanced C#\\Day_1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T13:04:43.963Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

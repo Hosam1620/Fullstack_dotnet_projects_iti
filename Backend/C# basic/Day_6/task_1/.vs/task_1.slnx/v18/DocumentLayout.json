@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\All projects\\ITI Diploma\\C# basic\\Day_6\\task_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3995267D-197A-C67C-EB98-C9AFCA6500B0}|task_1.csproj|d:\\all projects\\iti diploma\\c# basic\\day_6\\task_1\\complex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3995267D-197A-C67C-EB98-C9AFCA6500B0}|task_1.csproj|solutionrelative:complex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3995267D-197A-C67C-EB98-C9AFCA6500B0}|task_1.csproj|d:\\all projects\\iti diploma\\c# basic\\day_6\\task_1\\smartphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3995267D-197A-C67C-EB98-C9AFCA6500B0}|task_1.csproj|solutionrelative:smartphone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3995267D-197A-C67C-EB98-C9AFCA6500B0}|task_1.csproj|d:\\all projects\\iti diploma\\c# basic\\day_6\\task_1\\device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3995267D-197A-C67C-EB98-C9AFCA6500B0}|task_1.csproj|solutionrelative:device.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3995267D-197A-C67C-EB98-C9AFCA6500B0}|task_1.csproj|d:\\all projects\\iti diploma\\c# basic\\day_6\\task_1\\savingaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3995267D-197A-C67C-EB98-C9AFCA6500B0}|task_1.csproj|solutionrelative:savingaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3995267D-197A-C67C-EB98-C9AFCA6500B0}|task_1.csproj|d:\\all projects\\iti diploma\\c# basic\\day_6\\task_1\\bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3995267D-197A-C67C-EB98-C9AFCA6500B0}|task_1.csproj|solutionrelative:bankaccount.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3995267D-197A-C67C-EB98-C9AFCA6500B0}|task_1.csproj|d:\\all projects\\iti diploma\\c# basic\\day_6\\task_1\\enums\\epermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3995267D-197A-C67C-EB98-C9AFCA6500B0}|task_1.csproj|solutionrelative:enums\\epermission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3995267D-197A-C67C-EB98-C9AFCA6500B0}|task_1.csproj|d:\\all projects\\iti diploma\\c# basic\\day_6\\task_1\\enums\\esecurtylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3995267D-197A-C67C-EB98-C9AFCA6500B0}|task_1.csproj|solutionrelative:enums\\esecurtylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3995267D-197A-C67C-EB98-C9AFCA6500B0}|task_1.csproj|d:\\all projects\\iti diploma\\c# basic\\day_6\\task_1\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3995267D-197A-C67C-EB98-C9AFCA6500B0}|task_1.csproj|solutionrelative:employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3995267D-197A-C67C-EB98-C9AFCA6500B0}|task_1.csproj|d:\\all projects\\iti diploma\\c# basic\\day_6\\task_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3995267D-197A-C67C-EB98-C9AFCA6500B0}|task_1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SmartPhone.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\Day_6\\task_1\\SmartPhone.cs",
+              "RelativeDocumentMoniker": "SmartPhone.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\Day_6\\task_1\\SmartPhone.cs",
+              "RelativeToolTip": "SmartPhone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T11:41:40.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Device.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\Day_6\\task_1\\Device.cs",
+              "RelativeDocumentMoniker": "Device.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\Day_6\\task_1\\Device.cs",
+              "RelativeToolTip": "Device.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T11:41:26.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SavingAccount.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\Day_6\\task_1\\SavingAccount.cs",
+              "RelativeDocumentMoniker": "SavingAccount.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\Day_6\\task_1\\SavingAccount.cs",
+              "RelativeToolTip": "SavingAccount.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T11:40:46.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BankAccount.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\Day_6\\task_1\\BankAccount.cs",
+              "RelativeDocumentMoniker": "BankAccount.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\Day_6\\task_1\\BankAccount.cs",
+              "RelativeToolTip": "BankAccount.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T11:40:25.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EPermission.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\Day_6\\task_1\\enums\\EPermission.cs",
+              "RelativeDocumentMoniker": "enums\\EPermission.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\Day_6\\task_1\\enums\\EPermission.cs",
+              "RelativeToolTip": "enums\\EPermission.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T11:37:02.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ESecurtyLevel.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\Day_6\\task_1\\enums\\ESecurtyLevel.cs",
+              "RelativeDocumentMoniker": "enums\\ESecurtyLevel.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\Day_6\\task_1\\enums\\ESecurtyLevel.cs",
+              "RelativeToolTip": "enums\\ESecurtyLevel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T11:36:14.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\Day_6\\task_1\\Employee.cs",
+              "RelativeDocumentMoniker": "Employee.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\Day_6\\task_1\\Employee.cs",
+              "RelativeToolTip": "Employee.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-22T11:34:55.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Complex.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\Day_6\\task_1\\Complex.cs",
+              "RelativeDocumentMoniker": "Complex.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\Day_6\\task_1\\Complex.cs",
+              "RelativeToolTip": "Complex.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAUwDgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T20:29:03.237Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\Day_6\\task_1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\Day_6\\task_1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T19:47:38.233Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

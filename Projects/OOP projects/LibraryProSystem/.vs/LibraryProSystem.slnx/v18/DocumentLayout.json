@@ -1,0 +1,234 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|d:\\all projects\\iti diploma\\c# basic\\libraryprosystem\\bin\\debug\\net10.0\\books.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|solutionrelative:bin\\debug\\net10.0\\books.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|d:\\all projects\\iti diploma\\c# basic\\libraryprosystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|d:\\all projects\\iti diploma\\c# basic\\libraryprosystem\\libraries\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|solutionrelative:libraries\\library.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|d:\\all projects\\iti diploma\\c# basic\\libraryprosystem\\members\\member.methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|solutionrelative:members\\member.methods.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|d:\\all projects\\iti diploma\\c# basic\\libraryprosystem\\members\\member.properties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|solutionrelative:members\\member.properties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|d:\\all projects\\iti diploma\\c# basic\\libraryprosystem\\searchengine\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|solutionrelative:searchengine\\search.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|d:\\all projects\\iti diploma\\c# basic\\libraryprosystem\\derived classes\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|solutionrelative:derived classes\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|d:\\all projects\\iti diploma\\c# basic\\libraryprosystem\\loan\\loanrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|solutionrelative:loan\\loanrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|d:\\all projects\\iti diploma\\c# basic\\libraryprosystem\\interfaces\\ifinecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|solutionrelative:interfaces\\ifinecalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|d:\\all projects\\iti diploma\\c# basic\\libraryprosystem\\abstracut classes\\libraryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|solutionrelative:abstracut classes\\libraryitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|d:\\all projects\\iti diploma\\c# basic\\libraryprosystem\\interfaces\\iborrowable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|solutionrelative:interfaces\\iborrowable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|d:\\all projects\\iti diploma\\c# basic\\libraryprosystem\\filemanagers\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EC6096-29BC-4CA9-8A39-46FF676F5C0F}|LibraryProSystem.csproj|solutionrelative:filemanagers\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "books.json",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\bin\\Debug\\net10.0\\books.json",
+              "RelativeDocumentMoniker": "bin\\Debug\\net10.0\\books.json",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\bin\\Debug\\net10.0\\books.json",
+              "RelativeToolTip": "bin\\Debug\\net10.0\\books.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-25T21:42:55.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Search.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\SearchEngine\\Search.cs",
+              "RelativeDocumentMoniker": "SearchEngine\\Search.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\SearchEngine\\Search.cs",
+              "RelativeToolTip": "SearchEngine\\Search.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T20:16:19.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Library.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\Libraries\\Library.cs",
+              "RelativeDocumentMoniker": "Libraries\\Library.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\Libraries\\Library.cs",
+              "RelativeToolTip": "Libraries\\Library.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T20:03:43.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "FileManager.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\FileManagers\\FileManager.cs",
+              "RelativeDocumentMoniker": "FileManagers\\FileManager.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\FileManagers\\FileManager.cs",
+              "RelativeToolTip": "FileManagers\\FileManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T19:56:43.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoanRecord.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\Loan\\LoanRecord.cs",
+              "RelativeDocumentMoniker": "Loan\\LoanRecord.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\Loan\\LoanRecord.cs",
+              "RelativeToolTip": "Loan\\LoanRecord.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T19:47:46.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Member.Methods.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\Members\\Member.Methods.cs",
+              "RelativeDocumentMoniker": "Members\\Member.Methods.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\Members\\Member.Methods.cs",
+              "RelativeToolTip": "Members\\Member.Methods.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T19:46:29.976Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Member.Properties.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\Members\\Member.Properties.cs",
+              "RelativeDocumentMoniker": "Members\\Member.Properties.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\Members\\Member.Properties.cs",
+              "RelativeToolTip": "Members\\Member.Properties.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T19:38:30.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Book.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\Derived Classes\\Book.cs",
+              "RelativeDocumentMoniker": "Derived Classes\\Book.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\Derived Classes\\Book.cs",
+              "RelativeToolTip": "Derived Classes\\Book.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T19:36:41.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LibraryItem.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\Abstracut Classes\\LibraryItem.cs",
+              "RelativeDocumentMoniker": "Abstracut Classes\\LibraryItem.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\Abstracut Classes\\LibraryItem.cs",
+              "RelativeToolTip": "Abstracut Classes\\LibraryItem.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T19:33:12.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IFineCalculator.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\Interfaces\\IFineCalculator.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IFineCalculator.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\Interfaces\\IFineCalculator.cs",
+              "RelativeToolTip": "Interfaces\\IFineCalculator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T19:31:03.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IBorrowable.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\Interfaces\\IBorrowable.cs",
+              "RelativeDocumentMoniker": "Interfaces\\IBorrowable.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\Interfaces\\IBorrowable.cs",
+              "RelativeToolTip": "Interfaces\\IBorrowable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T19:30:05.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\LibraryProSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T19:29:04.06Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

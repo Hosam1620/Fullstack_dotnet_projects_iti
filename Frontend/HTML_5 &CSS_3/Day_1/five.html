@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>six
+    </title>
+    <style>
+        body {
+            font-family: Arial;
+            text-align: center;
+        }
+
+        #target {
+            width: 100px;
+            height: 100px;
+            border: 2px solid black;
+            background: lightgray;
+            margin: 30px auto;
+            line-height: 100px;
+            font-weight: bold;
+        }
+
+        div {
+            text-align: center;
+        }
+
+        .draggable {
+            width: 80px;
+            height: 80px;
+            border: 1px solid black;
+            line-height: 80px;
+            float: left;
+            margin: 10px;
+            cursor: grab;
+            background: white;
+        }
+
+        .clear {
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Score: <span id="score">0</span></h2>
+
+    <div>
+        <div id="target">Target</div>
+
+        <div id="A" class="draggable" draggable="true">A</div>
+        <div id="C" class="draggable" draggable="true">C</div>
+        <div id="B" class="draggable" draggable="true">B</div>
+        <div class="clear"></div>
+    </div>
+
+    <script>
+
+        // ----------------- Session Storage -----------------
+        if (sessionStorage.getItem("score") === null) {
+            sessionStorage.setItem("score", 0);
+        }
+        document.getElementById("score").innerText =
+            sessionStorage.getItem("score");
+
+        // ----------------- Drag Logic -----------------
+        let draggables = document.querySelectorAll(".draggable");
+        let target = document.getElementById("target");
+
+        draggables.forEach(item => {
+            item.addEventListener("dragstart", function (e) {
+                e.dataTransfer.setData("text", e.target.id);
+            });
+        });
+
+        target.addEventListener("dragover", function (e) {
+            e.preventDefault(); // Allow drop
+        });
+
+        target.addEventListener("drop", function (e) {
+            e.preventDefault();
+
+            let id = e.dataTransfer.getData("text");
+            let dragged = document.getElementById(id);
+
+            // Allow only A and a
+            if (id === "A" || id === "B") {
+                target.appendChild(dragged);
+                target.style.background = "lightgreen";
+
+                // Increase score
+                let score = parseInt(sessionStorage.getItem("score"));
+                score++;
+                sessionStorage.setItem("score", score);
+                document.getElementById("score").innerText = score;
+
+            } else {
+                // Return to original position
+                document.body.appendChild(dragged);
+                target.style.background = "lightcoral";
+            }
+        });
+    </script>
+</body>
+
+</html>

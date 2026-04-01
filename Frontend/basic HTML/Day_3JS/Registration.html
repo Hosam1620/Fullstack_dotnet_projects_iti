@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form action="Thankyou.html">
+
+        <input type="hidden" name="User_Id" value="12345">
+
+        <label for="FirstName">FirstName:</label><br>
+        <input type="text" id="FirstName" name="FirstName" ><br><br>
+
+        <label for="LastName">LastName:</label><br>
+        <input type="text" name="LastName" id="LastName" ><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" ><br><br>
+
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" ><br><br>
+
+        <label for="RepeatPassword">RepeatPassword:</label><br>
+        <input type="password" id="RepeatPassword" name="RepeatPassword" ><br><br>
+
+        <label for="berthDate">berthDate:</label>
+        <input type="text" id="berthDate" name="berthDate"><br><br>
+
+        <label for="image">Image:</label><br>
+        <input type="file" id="image" name="image"><br><br>
+
+        <fieldset>
+            <legend>Gender:</legend>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+        </fieldset><br><br>
+
+        <label for="faculty">Faculty: </label>
+        <select name="faculty" id="faculty" >
+            <option value="engineering">Engineering</option>
+            <option value="science">Science</option>
+            <option value="arts">Arts</option>
+            <option value="commerce">Commerce</option>
+        </select><br><br>
+
+        <fieldset>
+            <legend>Interests:</legend>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports"> Sports</label><br>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music"> Music</label><br>
+            <input type="checkbox" id="reading" name="interests" value="reading">
+            <label for="reading"> Reading</label><br>
+            <input type="checkbox" id="traveling" name="interests" value="traveling">
+            <label for="traveling"> Traveling</label><br>
+        </fieldset><br><br>
+        <label for="aboutyou">About You:</label><br>
+        <textarea id="aboutyou" name="aboutyou"></textarea><br><br>
+
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms"><a href="Terms.html" target="_blank">I agree to the terms and conditions</a></label>
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+
+    </form>
+</body>
+
+</html>

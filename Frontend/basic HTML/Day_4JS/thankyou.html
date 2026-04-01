@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You Page</title>
+</head>
+
+<body>
+
+    <h1 id="thankyou"></h1>
+    <script>
+        // Get the URL parameters
+        const urlParams = new URLSearchParams(window.location.search);
+        // Get the fullName parameter
+        const fullName = urlParams.get('fullName');
+        // Display the thank you message
+        document.getElementById('thankyou').textContent = `Thank you, ${fullName} for registering in our website.`;
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\All projects\\ITI Diploma\\SST\\Advanced C#\\Day_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E668D1-9A02-D9F5-B477-D88BEDA0CEAB}|Day_3.csproj|d:\\all projects\\iti diploma\\sst\\advanced c#\\day_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E668D1-9A02-D9F5-B477-D88BEDA0CEAB}|Day_3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E668D1-9A02-D9F5-B477-D88BEDA0CEAB}|Day_3.csproj|d:\\all projects\\iti diploma\\sst\\advanced c#\\day_3\\exams\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E668D1-9A02-D9F5-B477-D88BEDA0CEAB}|Day_3.csproj|solutionrelative:exams\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E668D1-9A02-D9F5-B477-D88BEDA0CEAB}|Day_3.csproj|d:\\all projects\\iti diploma\\sst\\advanced c#\\day_3\\questions\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E668D1-9A02-D9F5-B477-D88BEDA0CEAB}|Day_3.csproj|solutionrelative:questions\\question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E668D1-9A02-D9F5-B477-D88BEDA0CEAB}|Day_3.csproj|d:\\all projects\\iti diploma\\sst\\advanced c#\\day_3\\questions\\chooseonequestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E668D1-9A02-D9F5-B477-D88BEDA0CEAB}|Day_3.csproj|solutionrelative:questions\\chooseonequestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E668D1-9A02-D9F5-B477-D88BEDA0CEAB}|Day_3.csproj|d:\\all projects\\iti diploma\\sst\\advanced c#\\day_3\\exams\\finalexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E668D1-9A02-D9F5-B477-D88BEDA0CEAB}|Day_3.csproj|solutionrelative:exams\\finalexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5E668D1-9A02-D9F5-B477-D88BEDA0CEAB}|Day_3.csproj|d:\\all projects\\iti diploma\\sst\\advanced c#\\day_3\\exams\\practiceexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5E668D1-9A02-D9F5-B477-D88BEDA0CEAB}|Day_3.csproj|solutionrelative:exams\\practiceexam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Question.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\SST\\Advanced C#\\Day_3\\Questions\\Question.cs",
+              "RelativeDocumentMoniker": "Questions\\Question.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\SST\\Advanced C#\\Day_3\\Questions\\Question.cs",
+              "RelativeToolTip": "Questions\\Question.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T10:13:05.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "chooseOneQuestion.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\SST\\Advanced C#\\Day_3\\Questions\\chooseOneQuestion.cs",
+              "RelativeDocumentMoniker": "Questions\\chooseOneQuestion.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\SST\\Advanced C#\\Day_3\\Questions\\chooseOneQuestion.cs",
+              "RelativeToolTip": "Questions\\chooseOneQuestion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T10:12:56.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PracticeExam.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\SST\\Advanced C#\\Day_3\\Exams\\PracticeExam.cs",
+              "RelativeDocumentMoniker": "Exams\\PracticeExam.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\SST\\Advanced C#\\Day_3\\Exams\\PracticeExam.cs",
+              "RelativeToolTip": "Exams\\PracticeExam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T09:46:33.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FinalExam.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\SST\\Advanced C#\\Day_3\\Exams\\FinalExam.cs",
+              "RelativeDocumentMoniker": "Exams\\FinalExam.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\SST\\Advanced C#\\Day_3\\Exams\\FinalExam.cs",
+              "RelativeToolTip": "Exams\\FinalExam.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T09:29:48.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Exam.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\SST\\Advanced C#\\Day_3\\Exams\\Exam.cs",
+              "RelativeDocumentMoniker": "Exams\\Exam.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\SST\\Advanced C#\\Day_3\\Exams\\Exam.cs",
+              "RelativeToolTip": "Exams\\Exam.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-13T06:52:20.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\SST\\Advanced C#\\Day_3\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\SST\\Advanced C#\\Day_3\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAA9wBkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-08T14:44:00.186Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

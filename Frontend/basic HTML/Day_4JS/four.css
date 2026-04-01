@@ -1,0 +1,19 @@
+.input-box {
+  position: relative;
+}
+
+.icon {
+  width: 20px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  display: none;
+}
+
+input:valid ~ .valid-icon {
+  display: inline;
+}
+
+input:invalid ~ .invalid-icon {
+  display: inline;
+}

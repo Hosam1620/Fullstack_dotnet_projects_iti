@@ -1,0 +1,14 @@
+D:\All projects\ITI Diploma\Liberary Management project\Library managment\bin\Debug\net10.0\Library managment.exe
+D:\All projects\ITI Diploma\Liberary Management project\Library managment\bin\Debug\net10.0\Library managment.deps.json
+D:\All projects\ITI Diploma\Liberary Management project\Library managment\bin\Debug\net10.0\Library managment.runtimeconfig.json
+D:\All projects\ITI Diploma\Liberary Management project\Library managment\bin\Debug\net10.0\Library managment.dll
+D:\All projects\ITI Diploma\Liberary Management project\Library managment\bin\Debug\net10.0\Library managment.pdb
+D:\All projects\ITI Diploma\Liberary Management project\Library managment\obj\Debug\net10.0\Library managment.GeneratedMSBuildEditorConfig.editorconfig
+D:\All projects\ITI Diploma\Liberary Management project\Library managment\obj\Debug\net10.0\Library managment.AssemblyInfoInputs.cache
+D:\All projects\ITI Diploma\Liberary Management project\Library managment\obj\Debug\net10.0\Library managment.AssemblyInfo.cs
+D:\All projects\ITI Diploma\Liberary Management project\Library managment\obj\Debug\net10.0\Library managment.csproj.CoreCompileInputs.cache
+D:\All projects\ITI Diploma\Liberary Management project\Library managment\obj\Debug\net10.0\Library managment.dll
+D:\All projects\ITI Diploma\Liberary Management project\Library managment\obj\Debug\net10.0\refint\Library managment.dll
+D:\All projects\ITI Diploma\Liberary Management project\Library managment\obj\Debug\net10.0\Library managment.pdb
+D:\All projects\ITI Diploma\Liberary Management project\Library managment\obj\Debug\net10.0\Library managment.genruntimeconfig.cache
+D:\All projects\ITI Diploma\Liberary Management project\Library managment\obj\Debug\net10.0\ref\Library managment.dll

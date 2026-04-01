@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let students = [
+            {
+                ID: 1,
+                name: "Ahmed",
+                Age: 22,
+                Address: "Cairo",
+                Skills: ["JavaScript", "HTML", "CSS"],
+                IsLeader: true
+            },
+            {
+                ID: 2,
+                name: "Sara",
+                Age: 21,
+                Address: null,
+                Skills: ["Python", "SQL"],
+                IsLeader: false
+            },
+            {
+                ID: 3,
+                name: "Omar",
+                Age: 23,
+                Address: "Alex",
+                Skills: ["Java", "Spring"],
+                IsLeader: true
+            }
+        ];
+
+
+        students.forEach(student => {
+            console.log(student.name + "=>" + student.Skills.join(", "));
+        });
+
+    </script>
+</body>
+
+</html>

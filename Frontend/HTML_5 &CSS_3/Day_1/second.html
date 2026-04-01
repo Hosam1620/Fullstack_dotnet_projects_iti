@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>CV</title>
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        header,
+        section,
+        footer {
+            padding: 20px;
+        }
+
+        header,
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+        }
+
+        .skills div {
+            margin-bottom: 10px;
+        }
+
+        .bar {
+            background: #ddd;
+            width: 100%;
+            height: 20px;
+        }
+
+        .bar span {
+            display: block;
+            height: 100%;
+            background: green;
+        }
+
+        /* video */
+        video {
+            width: 600px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Hossam Mohamed</h1>
+        <p>Backend Developer</p>
+        <p>Birthdate:
+            <time datetime="2002-06-01">Jun 01, 2002</time>
+        </p>
+    </header>
+
+    <section>
+        <h2>Skills</h2>
+
+        <div style="width: 30%;">
+            <div>Java
+                <div class="bar">
+                    <span style="width:90%"></span>
+                </div>
+            </div>
+
+            <div>HTML
+                <div class="bar">
+                    <span style="width:80%"></span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- contact -->
+    <section>
+        <h2 onclick="playSound()">Contact</h2>
+        <audio id="ringSound">
+            <source src="./notification.mp3" type="audio/mpeg">
+        </audio>
+        <P>Phone: 01017926395</P>
+        <p>Email: hossammohamed1620@gmail.com</p>
+
+    </section>
+    <!-- video -->
+    <section>
+        <div>
+            <video id="myVideo" autoplay muted>
+                <source src="./09-2 JPA Named (Native) Queries(720P_HD).mp4" type="video/mp4">
+            </video>
+        </div>
+    </section>
+    <section>
+        <div>
+            <img src="./Images for the rating stars assignment/empty_star.png" class="star" data-clicked="false" onclick="toggleStar(this)"
+                onmouseover="hoverStar(this)" onmouseout="outStar(this)">
+            
+            <img src="./Images for the rating stars assignment/empty_star.png" class="star" data-clicked="false" onclick="toggleStar(this)"
+                onmouseover="hoverStar(this)" onmouseout="outStar(this)">
+            
+            <img src="./Images for the rating stars assignment/empty_star.png" class="star" data-clicked="false" onclick="toggleStar(this)"
+                onmouseover="hoverStar(this)" onmouseout="outStar(this)">
+            
+            
+            <img src="./Images for the rating stars assignment/empty_star.png" class="star" data-clicked="false" onclick="toggleStar(this)"
+                onmouseover="hoverStar(this)" onmouseout="outStar(this)">
+            
+            
+            <img src="./Images for the rating stars assignment/empty_star.png" class="star" data-clicked="false" onclick="toggleStar(this)"
+                onmouseover="hoverStar(this)" onmouseout="outStar(this)">
+            
+        </div>
+    </section>
+    <footer>
+        <p>All thing is okay</p>
+        <p>© 2026</p>
+    </footer>
+    <script>
+        // contact method
+        function playSound() {
+            document.getElementById("ringSound").play();
+        }
+        // video
+        document.getElementById("myVideo").addEventListener("click", function () {
+            this.pause();
+        });
+
+        //rating star
+        function hoverStar(star) {
+            if (star.dataset.clicked === "false") {
+                star.src = "./Images for the rating stars assignment/Filled_star.png";
+            }
+        }
+
+        function outStar(star) {
+            if (star.dataset.clicked === "false") {
+                star.src = "./Images for the rating stars assignment/empty_star.png";
+            }
+        }
+
+        function toggleStar(star) {
+            if (star.dataset.clicked === "false") {
+                star.dataset.clicked = "true";
+                star.src = "./Images for the rating stars assignment/Filled_star.png";
+            } else {
+                star.dataset.clicked = "false";
+                star.src = "./Images for the rating stars assignment/empty_star.png";
+            }
+        }
+    </script>
+</body>
+
+
+</html>

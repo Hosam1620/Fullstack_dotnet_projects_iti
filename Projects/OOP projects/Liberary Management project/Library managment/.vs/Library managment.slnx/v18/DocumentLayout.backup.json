@@ -1,0 +1,81 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\All projects\\ITI Diploma\\Liberary Management project\\Library managment\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9B27251B-AF68-34AE-BF27-7E76787CC80B}|Library managment.csproj|d:\\all projects\\iti diploma\\liberary management project\\library managment\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B27251B-AF68-34AE-BF27-7E76787CC80B}|Library managment.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B27251B-AF68-34AE-BF27-7E76787CC80B}|Library managment.csproj|d:\\all projects\\iti diploma\\liberary management project\\library managment\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9B27251B-AF68-34AE-BF27-7E76787CC80B}|Library managment.csproj|solutionrelative:filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9B27251B-AF68-34AE-BF27-7E76787CC80B}|Library managment.csproj|d:\\all projects\\iti diploma\\liberary management project\\library managment\\bin\\debug\\net10.0\\books.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9B27251B-AF68-34AE-BF27-7E76787CC80B}|Library managment.csproj|solutionrelative:bin\\debug\\net10.0\\books.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\Liberary Management project\\Library managment\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\Liberary Management project\\Library managment\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBQAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T22:44:37.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "books.json",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\Liberary Management project\\Library managment\\bin\\Debug\\net10.0\\books.json",
+              "RelativeDocumentMoniker": "bin\\Debug\\net10.0\\books.json",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\Liberary Management project\\Library managment\\bin\\Debug\\net10.0\\books.json",
+              "RelativeToolTip": "bin\\Debug\\net10.0\\books.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-23T22:09:51.877Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileManager.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\Liberary Management project\\Library managment\\FileManager.cs",
+              "RelativeDocumentMoniker": "FileManager.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\Liberary Management project\\Library managment\\FileManager.cs",
+              "RelativeToolTip": "FileManager.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-23T21:55:42.424Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

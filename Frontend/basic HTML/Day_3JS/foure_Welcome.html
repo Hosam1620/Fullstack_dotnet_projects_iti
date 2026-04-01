@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Welcome</title>
+</head>
+<body>
+  <h2 ><b id="msg"></b></h2>
+
+  <script>
+    const params = new URLSearchParams(window.location.search);
+    const username = params.get("username");
+
+    document.getElementById("msg").textContent =
+      "Welcome " + username ;
+  </script>
+</body>
+</html>

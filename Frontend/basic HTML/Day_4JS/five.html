@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="gallery">
+  <img id="img" src="./Resources for Assignments/Images For Slide Show/1.jpg" width="300">
+</div>
+
+<button onclick="prev()">Previous</button>
+<button onclick="next()">Next</button>
+<button onclick="play()">Play</button>
+<button onclick="stop()">Stop</button>
+<script>
+    let images = ["./Resources for Assignments/Images For Slide Show/1.jpg", "./Resources for Assignments/Images For Slide Show/2.jpg",
+     "./Resources for Assignments/Images For Slide Show/3.jpg", "./Resources for Assignments/Images For Slide Show/4.jpg",
+      "./Resources for Assignments/Images For Slide Show/5.jpg", "./Resources for Assignments/Images For Slide Show/6.jpg",
+       "./Resources for Assignments/Images For Slide Show/7.jpg", "./Resources for Assignments/Images For Slide Show/8.jpg"];
+let index = 0;
+let interval;
+
+function show() {
+  document.getElementById("img").src = images[index];
+}
+
+function next() {
+  index = (index + 1) % images.length;
+  show();
+}
+
+function prev() {
+  index = (index - 1 + images.length) % images.length;
+  show();
+}
+
+function play() {
+  interval = setInterval(next, 500);
+}
+
+function stop() {
+  clearInterval(interval);
+}
+
+// auto on mouse over
+document.getElementById("gallery").onmouseover = play;
+document.getElementById("gallery").onmouseout = stop;
+
+</script>
+</body>
+</html>

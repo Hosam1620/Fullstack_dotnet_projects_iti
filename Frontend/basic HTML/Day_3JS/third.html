@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Game</title>
+</head>
+<body>
+  <h2>Click the images</h2>
+
+  <img src="./resources/280554f5-6d1a-45ce-baad-141e0bd7e2a2.jpeg" class="img" width="200px" height="200px">
+  <img src="./resources/sung-jinwoo-season-5120x2880-23604.jpg" class="img" width="200px" height="200px">
+  <img src="./resources/download (9).jfif" class="img" width="200px" height="200px">
+
+  <script>
+    let counter = 0;
+    //to select multiple images should use querySelectorAll
+    const images = document.querySelectorAll(".img");
+
+    function increaseCounter() {
+      counter++;
+    }
+
+    function showScore() {
+      alert("Score: " + counter);
+    }
+
+    function gameOver() {
+      alert("Game Over");
+    }
+
+    // handle click on all images
+    //we using forEach to add event listeners to all images
+    images.forEach(img => {
+      img.addEventListener("click", increaseCounter);
+      img.addEventListener("click", showScore);
+    });
+
+    // after 3 seconds remove score handler and add Game Over handler
+    setTimeout(() => {
+      images.forEach(img => {
+        img.removeEventListener("click", showScore);
+        img.addEventListener("click", gameOver);
+      });
+    }, 33000);
+  </script>
+</body>
+</html>

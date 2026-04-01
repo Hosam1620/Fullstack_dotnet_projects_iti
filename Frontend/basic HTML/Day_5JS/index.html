@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="loginForm">
+  <label>Username:</label>
+  <input type="text" id="username"><br><br>
+
+  <label>Password:</label>
+  <input type="password" id="password"><br><br>
+
+  <button type="submit">Login</button>
+</form>
+
+<script >
+
+window.onload = function () {
+  let savedUsername = localStorage.getItem("username");
+  let savedPassword = localStorage.getItem("password");
+
+  if (savedUsername && savedPassword) {
+    document.getElementById("username").value = savedUsername;
+    document.getElementById("password").value = savedPassword;
+  }
+};
+
+document.getElementById("loginForm").addEventListener("submit", function (e) {
+  e.preventDefault(); 
+
+  let username = document.getElementById("username").value;
+  let password = document.getElementById("password").value;
+
+  localStorage.setItem("username", username);
+  localStorage.setItem("password", password);
+
+  alert("Data saved in Local Storage!");
+});
+
+</script>
+
+</body>
+</html>

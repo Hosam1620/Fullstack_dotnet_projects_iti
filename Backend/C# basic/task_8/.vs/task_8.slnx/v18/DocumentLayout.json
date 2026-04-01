@@ -1,0 +1,115 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\All projects\\ITI Diploma\\C# basic\\task_8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BE03B189-DBAA-6283-5199-B0E062B61342}|task_8.csproj|d:\\all projects\\iti diploma\\c# basic\\task_8\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE03B189-DBAA-6283-5199-B0E062B61342}|task_8.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE03B189-DBAA-6283-5199-B0E062B61342}|task_8.csproj|d:\\all projects\\iti diploma\\c# basic\\task_8\\hospital management system\\patients\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE03B189-DBAA-6283-5199-B0E062B61342}|task_8.csproj|solutionrelative:hospital management system\\patients\\payments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE03B189-DBAA-6283-5199-B0E062B61342}|task_8.csproj|d:\\all projects\\iti diploma\\c# basic\\task_8\\hospital management system\\patients\\charges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE03B189-DBAA-6283-5199-B0E062B61342}|task_8.csproj|solutionrelative:hospital management system\\patients\\charges.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE03B189-DBAA-6283-5199-B0E062B61342}|task_8.csproj|d:\\all projects\\iti diploma\\c# basic\\task_8\\hospital management system\\hospitalsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE03B189-DBAA-6283-5199-B0E062B61342}|task_8.csproj|solutionrelative:hospital management system\\hospitalsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BE03B189-DBAA-6283-5199-B0E062B61342}|task_8.csproj|d:\\all projects\\iti diploma\\c# basic\\task_8\\hospital management system\\patients\\patient.billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BE03B189-DBAA-6283-5199-B0E062B61342}|task_8.csproj|solutionrelative:hospital management system\\patients\\patient.billing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\task_8\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\task_8\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T19:36:24.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Payments.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\task_8\\Hospital Management System\\Patients\\Payments.cs",
+              "RelativeDocumentMoniker": "Hospital Management System\\Patients\\Payments.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\task_8\\Hospital Management System\\Patients\\Payments.cs",
+              "RelativeToolTip": "Hospital Management System\\Patients\\Payments.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T19:14:16.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Charges.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\task_8\\Hospital Management System\\Patients\\Charges.cs",
+              "RelativeDocumentMoniker": "Hospital Management System\\Patients\\Charges.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\task_8\\Hospital Management System\\Patients\\Charges.cs",
+              "RelativeToolTip": "Hospital Management System\\Patients\\Charges.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T19:10:02.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HospitalSystem.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\task_8\\Hospital Management System\\HospitalSystem.cs",
+              "RelativeDocumentMoniker": "Hospital Management System\\HospitalSystem.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\task_8\\Hospital Management System\\HospitalSystem.cs",
+              "RelativeToolTip": "Hospital Management System\\HospitalSystem.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAIwEMAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T18:08:22.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Patient.Billing.cs",
+              "DocumentMoniker": "D:\\All projects\\ITI Diploma\\C# basic\\task_8\\Hospital Management System\\Patients\\Patient.Billing.cs",
+              "RelativeDocumentMoniker": "Hospital Management System\\Patients\\Patient.Billing.cs",
+              "ToolTip": "D:\\All projects\\ITI Diploma\\C# basic\\task_8\\Hospital Management System\\Patients\\Patient.Billing.cs",
+              "RelativeToolTip": "Hospital Management System\\Patients\\Patient.Billing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-24T16:19:16.335Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
